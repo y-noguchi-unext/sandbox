@@ -1,0 +1,56 @@
+menu:
+  restaurant: "Sunny Kitchen"
+  address: "Tokyo, Shibuya-ku 1-2-3"
+  categories:
+    - name: "Breakfast"
+      items:
+        - name: "Pancake Set"
+          price: 850
+          ingredients:
+            - flour
+            - egg
+            - milk
+            - maple_syrup
+        - name: "Omelette Plate"
+          price: 920
+          ingredients:
+            - egg
+            - cheese
+            - ham
+            - tomato
+        - name: "Secret Special Menu"
+          price: 10000
+          ingredients:
+            - egg
+          secret: "special spice"
+    - name: "Lunch"
+      items:
+        - name: "Grilled Chicken"
+          price: 1200
+          ingredients:
+            - chicken
+            - soy_sauce
+            - garlic
+        - name: "Vegetable Curry"
+          price: 1100
+          vegan: true
+          ingredients:
+            - potato
+            - carrot
+            - onion
+            - curry_powder
+    - name: "Dessert"
+      items:
+        - name: "Cheesecake"
+          price: 600
+          ingredients:
+            - cream_cheese
+            - sugar
+            - egg
+            - lemon_juice
+        - name: "Chocolate Mousse"
+          price: 580
+          ingredients:
+            - dark_chocolate
+            - cream
+            - sugar
