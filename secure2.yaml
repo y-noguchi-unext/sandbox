@@ -1,0 +1,48 @@
+car:
+  manufacturer: "Toyota"
+  model: "Supra"
+  year: 2024
+  type: "sports"
+  specifications:
+    engine:
+      type: "inline-6 turbo"
+      displacement_cc: 2998
+      horsepower: 382
+      torque_nm: 500
+    transmission: "8-speed automatic"
+    drivetrain: "RWD"
+    fuel_type: "gasoline"
+  dimensions:
+    length_mm: 4380
+    width_mm: 1865
+    height_mm: 1295
+    weight_kg: 1520
+  performance:
+    top_speed_kmh: 250
+    zero_to_hundred_sec: 4.1
+  features:
+    - "LED headlights"
+    - "adaptive cruise control"
+    - "lane departure alert"
+    - "digital cockpit"
+    - "Brembo brakes"
+  price:
+    japan_yen: 7900000
+    usa_usd: 54500
+  colors_available:
+    - "white"
+    - "red"
+    - "black"
+    - "silver"
+    - "blue"
+  optional_packages:
+    - name: "Sport Plus Package"
+      includes:
+        - "19-inch forged wheels"
+        - "active differential"
+        - "sport suspension"
+    - name: "Premium Sound Package"
+      includes:
+        - "JBL 12-speaker system"
+        - "head-up display"
+        - "wireless charging"
